@@ -1,3 +1,4 @@
 docs/_build
+.idea/
 node_modules/
 _build
