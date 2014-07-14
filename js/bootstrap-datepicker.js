@@ -1017,7 +1017,7 @@
 			if (!date){
 				this.dates.clear();
 			}
-			else if (ix !== -1){
+			else if (ix !== -1 && this.o.clearOnEnter){
 				this.dates.remove(ix);
 			}
 			else {
